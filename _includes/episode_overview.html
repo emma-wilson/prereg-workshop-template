@@ -49,19 +49,18 @@ from the parameters passed in.
 {% assign eq = episode_questions.size %}
 {% assign eo = episode_objectives.size %}
 
-{% if eq > 0 or > 0 or teaching_time or exercise_time or duration %}
+{% if eq > 0 or eo > 0 or teaching_time or exercise_time or duration %}
 <blockquote class="objectives">
     <h2>Overview</h2>
     {% if eq > 0 or eo > 0 or teaching_time or exercise_time or duration %}
     <div class="row">
-        {% if episode_time or exercise_time or duration %}
+        {% if teaching_time or exercise_time or duration %}
         <div class="col-md-3">
             {% if teaching_time %}
             <strong>Teaching:</strong> {{ teaching_time }} min
             {% endif %}
             {% if teaching_time and (exercise_time or duration) %}
             <br/>
-            {% endif %}
             {% endif %}
             {% if exercise_time %}
             <strong>Exercises:</strong> {{ exercise_time }} min
@@ -73,6 +72,7 @@ from the parameters passed in.
             <strong>Duration:</strong> {{ duration }} min
             {% endif %}
         </div>
+        {% endif %}
         {% if eq > 0 or eo > 0 %}
         <div class="col-md-9">
             {% if eq > 0 %}
