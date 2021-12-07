@@ -1,13 +1,25 @@
 ---
-title: Text Lesson
-teaching: null
-exercises: null
+title: Introducing the concept - the ‘what’ and ‘why’ of preregistration
+teaching: 30
+exercises: 30
 duration: null
-summary: This template shows you how to use the various different special text
-  boxes on offer.
-questions: null
-objectives: null
-keypoints: null
+summary: An introduction to what preregistration entails, the benefits of
+  preregistration, and discussion of any concerns.
+questions:
+  - What is a preregistration?
+  - What are the benefits of preregistration?
+  - What concerns do people have about preregistration? How can we mitigate them?
+objectives:
+  - Understand what preregistration entails
+  - Understand the benefits of preregistration
+  - Understand common concerns and how to mitigate them
+keypoints:
+  - A preregistration is a specification of your research plan, written in
+    advance on conducting the research
+  - Preregistration benefits science and researchers by making your research
+    more transparent
+  - Researchers have several concerns surrounding preregistration, but many of
+    them can be solved
 is-break: null
 ukrn_wb_rules:
   - allow-multiple
