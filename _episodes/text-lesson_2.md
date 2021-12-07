@@ -22,109 +22,29 @@ dependencies: []
 originalRepository: UKRN-Open-Research/ukrn-wb-lesson-templates
 
 ---
-## Markdown
+Much of the bulk of a workshop might be based on teaching participants how to write a useful, high-quality preregistration. It may be helpful to discuss as a group what makes a preregistration useful.
 
-The text in these episodes is written in markdown.
-The **Workshop Builder** has a markdown editor, so it should not be _too difficult_ to edit the text to suit your requirements.
+## Content you may want to cover
+- Remember the ‘good-enough’ mindset -- a preregistration does not have to be perfect, and you will get better with practice.
+- Use future tense (to indicate the study has not been run yet).
+- Make sure hypotheses are clearly numbered and identified, so it is clear what is or isn’t a formal hypothesis, and analysis plans can refer back to particular hypotheses easily.
+- Make sure methods are specified with enough detail that an inexperienced colleague could replicate them. There is no hard and fast rule what to include - important details may differ by field. Looking at examples, and/or doing the other exercises in section b, may help determine which details are important. Also, think about including contingencies for if things go wrong. As a basic guide, methods may include:
+	- Sample size justification
+	- Exclusion/inclusion criteria and contingencies for when to stop or restart data collection
+	- How, exactly, will you measure your variables
+	- Etc. (whatever else is relevant to your discipline)
+- Make sure analyses/ statistical tests are specified with enough detail to be fully replicated (e.g., not just ‘we will run a t-test,’ but specify how many tails, what type of t-test, inclusion criteria for sample, etc.) - imagine giving this plan to someone with no knowledge of your study.
+	- It may help to simulate data and run analyses on it, to anticipate problems with the analysis plan
+	- Consider how to treat potential null results (e.g., equivalence testing)
+- Make sure models/analyses are clearly linked to which hypotheses they are testing.
 
-In addition to this, the website template we use has a variety of special highlighted sections that we use to draw attention to things.
+Overall the above principles boil down to making sure:
+The study you are preregistering is well-designed
+The prereg is clearly written and linked up
+The prereg is specified in enough detail
 
-### Lesson sections
-
-The following lesson section tags are available:
-* `{: .prereq}`
-* `{: .callout}`
-* `{: .challenge}`
-* `{: .checklist}`
-* `{: .discussion}`
-* `{: .solution}`
-* `{: .testimonial}`
-
-Additionally, you can make extra copies of these tags, which are included automatically:
-* `{: .objectives}`
-* `{: .keypoints}`
-
-Each tag is used in the same way, by including a section with a heading (`## heading`) in a block quote (`> quoted text`), and by having the tag `{: .tag-name}` on the line immediately following:
-
-```markdown
-> ## Section Title
-> Here is the section body.
-> This can be multiple lines long, and include images, code, etc.
->
-> If you want paragraph breaks, make sure the quotation block continues
-> by having the blank line start with >
->
-> When you're finished, style the whole block by including the tag on the next line.
-{: .tag-name}
-```
-
-### Examples
-
-> ## `{: .prereq}` Tag
-> This is a `{: .prereq}` tag block.
-> This tag is usually used to tell participants what they need before they can complete a lesson.
-{: .prereq}
-
-> ## `{: .callout}` Tag
-> This is a `{: .callout}` tag block.
-> This tag is usually used to highlight something participants should take note of.
+> ## Overall the above principles boil down to making sure
+> - The study you are preregistering is well-designed
+> - The prereg is clearly written and linked up
+> - The prereg is specified in enough detail
 {: .callout}
-
-> ## `{: .challenge}` Tag
-> This is a `{: .challenge}` tag block.
-> This tag is usually used to suggest an activity for participants to do, perhaps writing a bit of code or trying to complete an exercise.
-{: .challenge}
-
-> ## `{: .checklist}` Tag
-> This is a `{: .checklist}` tag block.
-> This tag is usually used to provide a list participants can use to make sure they don't forget an important step in a procedure.
-{: .checklist}
-
-> ## `{: .discussion}` Tag
-> This is a `{: .discussion}` tag block.
-> This tag is usually used to present a question for participants to discuss.
-{: .discussion}
-
-> ## `{: .solution}` Tag
-> This is a `{: .solution}` tag block.
-> This tag is usually used to present a solution to a problem.
-> It is hidden by default, so that participants have to click to expand it and see the answer.
-{: .solution}
-
-```markdown
-> Using a different heading level for the solution tag won't work.
-> It has to be level 2.
-```
-{: .warning}
-
-> ## `{: .testimonial}` Tag
-> This is a `{: .testimonial}` tag block.
-> This tag is usually used to present quotes from people who have previously participated in the course.
-{: .testimonial}
-
-### Advanced Tag Use
-
-You can nest tags.
-It's quite common to see `{: .solution}` tags nested inside `{: .challenge}` tags, for example.
-They are done by stacking quote levels:
-```markdown
-> ## Question
-> Why do you normally not need to use `{: .objectives}` and `{: .keypoints}` tags?
-> > ## Answer
-> > These tags are included automatically at the beginning and end of the lesson.
-> {: .solution}
-{: .challenge}
-```
-
-And it looks like:
-> ## Question
-> Why do you normally not need to use `{: .objectives}` and `{: .keypoints}` tags?
-> > ## Answer
-> > These tags are included automatically at the beginning and end of the lesson.
-> {: .solution}
-{: .challenge}
-
-## HTML
-
-You can also write in HTML.
-The special `<kbd>` tag is available for use in neatly styling instructions like "press <kbd>Ctrl</kbd> + <kbd>Home</kbd>".
