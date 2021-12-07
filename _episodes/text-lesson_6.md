@@ -30,109 +30,57 @@ dependencies: []
 originalRepository: UKRN-Open-Research/ukrn-wb-lesson-templates
 
 ---
-## Markdown
+## Introduction and discussion
+Introduce the concept of RRs, and why it is important in your discipline. (see example talks at https://osf.io/d4fh5/)
+- Explain how RRs differ from normal publications
+- If applicable, discuss the differences between preregistration and RRs
 
-The text in these episodes is written in markdown.
-The **Workshop Builder** has a markdown editor, so it should not be _too difficult_ to edit the text to suit your requirements.
+## Benefits of preregistration 
 
-In addition to this, the website template we use has a variety of special highlighted sections that we use to draw attention to things.
-
-### Lesson sections
-
-The following lesson section tags are available:
-* `{: .prereq}`
-* `{: .callout}`
-* `{: .challenge}`
-* `{: .checklist}`
-* `{: .discussion}`
-* `{: .solution}`
-* `{: .testimonial}`
-
-Additionally, you can make extra copies of these tags, which are included automatically:
-* `{: .objectives}`
-* `{: .keypoints}`
-
-Each tag is used in the same way, by including a section with a heading (`## heading`) in a block quote (`> quoted text`), and by having the tag `{: .tag-name}` on the line immediately following:
-
-```markdown
-> ## Section Title
-> Here is the section body.
-> This can be multiple lines long, and include images, code, etc.
->
-> If you want paragraph breaks, make sure the quotation block continues
-> by having the blank line start with >
->
-> When you're finished, style the whole block by including the tag on the next line.
-{: .tag-name}
-```
-
-### Examples
-
-> ## `{: .prereq}` Tag
-> This is a `{: .prereq}` tag block.
-> This tag is usually used to tell participants what they need before they can complete a lesson.
-{: .prereq}
-
-> ## `{: .callout}` Tag
-> This is a `{: .callout}` tag block.
-> This tag is usually used to highlight something participants should take note of.
-{: .callout}
-
-> ## `{: .challenge}` Tag
-> This is a `{: .challenge}` tag block.
-> This tag is usually used to suggest an activity for participants to do, perhaps writing a bit of code or trying to complete an exercise.
-{: .challenge}
-
-> ## `{: .checklist}` Tag
-> This is a `{: .checklist}` tag block.
-> This tag is usually used to provide a list participants can use to make sure they don't forget an important step in a procedure.
-{: .checklist}
-
-> ## `{: .discussion}` Tag
-> This is a `{: .discussion}` tag block.
-> This tag is usually used to present a question for participants to discuss.
+> ## Discussion
+> Introduce the benefits of RRs in your field, including some selfish reasons. For example:
+> - Guarantees that study can be published regardless of the results
+> - Helps improve the study by having peer review before it is run
+> - Eliminates the need to submit to multiple journals after the study is complete
+> - Improves credibility of results
+> - Etc.
 {: .discussion}
 
-> ## `{: .solution}` Tag
-> This is a `{: .solution}` tag block.
-> This tag is usually used to present a solution to a problem.
-> It is hidden by default, so that participants have to click to expand it and see the answer.
-{: .solution}
+## Acknowledging and addressing concerns
+Importantly, address the concerns that your participants have. Some concerns may not have solutions, and simply need to be acknowledged; however, many can be resolved. Common concerns may include:
 
-```markdown
-> Using a different heading level for the solution tag won't work.
-> It has to be level 2.
-```
-{: .warning}
-
-> ## `{: .testimonial}` Tag
-> This is a `{: .testimonial}` tag block.
-> This tag is usually used to present quotes from people who have previously participated in the course.
-{: .testimonial}
-
-### Advanced Tag Use
-
-You can nest tags.
-It's quite common to see `{: .solution}` tags nested inside `{: .challenge}` tags, for example.
-They are done by stacking quote levels:
-```markdown
-> ## Question
-> Why do you normally not need to use `{: .objectives}` and `{: .keypoints}` tags?
-> > ## Answer
-> > These tags are included automatically at the beginning and end of the lesson.
-> {: .solution}
-{: .challenge}
-```
-
-And it looks like:
-> ## Question
-> Why do you normally not need to use `{: .objectives}` and `{: .keypoints}` tags?
-> > ## Answer
-> > These tags are included automatically at the beginning and end of the lesson.
+> ## Concern 1
+> Having the peer review process at the beginning takes extra time to get started
+> > ## Solution
+> > Yes, but this process improves the study quality and guarantees a publication at the end--so well worth it
 > {: .solution}
 {: .challenge}
 
-## HTML
+> ## Concern 2
+> Registered Reports stifles creativity and prohibits exploratory analyses
+> > ## Solution
+> > Exploratory analyses can still be included, and lack of ‘creativity’ in interpreting results may actually be a benefit of credibility!
+> {: .solution}
+{: .challenge}
 
-You can also write in HTML.
-The special `<kbd>` tag is available for use in neatly styling instructions like "press <kbd>Ctrl</kbd> + <kbd>Home</kbd>".
+> ## Concern 3
+> Registered Reports may not be suitable for me type of research
+> > ## Solution
+> > Registered Reports may be less useful, but still can help in transparently defining aims and methods beforehand. There are examples for many of these, including:
+> > - Qualitative research 
+> > - Exploratory studies or disciplines, e.g. high throughput drug discovery 
+> > - Secondary data analysis or simulated data
+> {: .solution}
+{: .challenge}
+
+> ## Concern 4
+> If I write a Registered report my research I might get scooped
+> > ## Solution
+> > The Stage 1 RR can be embargoed until the full manuscript is published -- but, admittedly, you cannot guarantee that editors/reviewers won’t scoop the idea
+> {: .solution}
+{: .challenge}
+
+You may want to invite participants to share any other concerns they have, and discuss these as a group. But be careful not to get bogged down in overly philosophical or theoretical discussions - the point of the workshop is to make practical changes!
+- Set only a certain amount of time for discussion, and make sure to move on afterward
+- Offer to discuss lingering concerns with attendees after the workshop
+- Remember, you don’t need to dispel all concerns - it’s ok to say you don’t know (but will look it up), or just acknowledge there are some risks/drawbacks
