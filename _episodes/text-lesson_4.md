@@ -1,12 +1,16 @@
 ---
-title: Text Lesson
-teaching: null
-exercises: null
+title: Applying to your own workflow
+teaching: 15
+exercises: 15
 duration: null
-summary: This template shows you how to use the various different special text
-  boxes on offer.
-questions: null
-objectives: null
+summary: Make a plan for incorporating preregistration into your research workflow
+questions:
+  - When will I preregister?
+  - What should I preregister?
+  - Where should I preregister?
+  - How do I convince collaborators or supervisors to agree to preregister?
+objectives:
+  - Understand how to incorporate preregistration into your research workflow.
 keypoints: null
 is-break: null
 ukrn_wb_rules:
