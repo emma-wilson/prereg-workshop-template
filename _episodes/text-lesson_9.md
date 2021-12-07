@@ -1,11 +1,16 @@
 ---
-title: Text Lesson
-teaching: null
-exercises: null
+title: "RR: Applying to your own workflow"
+teaching: 15
+exercises: 15
 duration: null
-summary: This template shows you how to use the various different special text
-  boxes on offer.
-questions: null
+summary: Discuss how you will incorporate writing Registered Reports into your
+  own research workflow
+questions:
+  - What should I write as a Registered Report?
+  - When should I do a Registered Report?
+  - Where should I submit a Registered Report?
+  - How to convince collaborators and supervisors to agree to write a Registered
+    Report?
 objectives: null
 keypoints: null
 is-break: null
