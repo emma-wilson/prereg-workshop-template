@@ -1,5 +1,5 @@
 ---
-title: Applying to your own workflow
+title: "Prereg: Applying to your own workflow"
 teaching: 15
 exercises: 15
 duration: null
