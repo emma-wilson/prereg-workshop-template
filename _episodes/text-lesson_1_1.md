@@ -63,11 +63,15 @@ Finally, if applicable, discuss the differences between preregistration and RRs
 ## Acknowledging and addressing concerns
 Importantly, address the concerns that your participants have. Some concerns may not have solutions, and simply need to be acknowledged; however, many can be resolved. Common concerns may include:
 
+> ### Concern 1
+> Preregistration prohibits exploratory analysis
+> > ### Solution
+> > Preregistration is a plan, not a prison - exploratory analyses are fine, as long as they are labeled as such
+> {: .solution}
+{: .challenge}
 
 
 
-
-- Prohibiting exploratory analysis (preregistration is a plan, not a prison - exploratory analyses are fine, as long as they are labeled as such)
 - Concerns about making mistakes/oversights (again, changes to the prereg plan are fine, they just need to be reported transparently)
 - Suitability for non-experimental research (preregistration may be less useful, but still can help in transparently defining aims and methods beforehand. There are prereg templates for many of these)
 	- qualitative research 
