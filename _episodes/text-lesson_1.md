@@ -35,6 +35,11 @@ Begin your workshop with an introduction to what preregistration entails, any po
 ##Introduction and discussion
 Introduce the concept of preregistration, and why it is important in your discipline. It can be useful to add a discussion element to your workshop to gauge participants' understanding of preregistration.
 
+> ## `{: .discussion}` Tag
+> This is a `{: .discussion}` tag block.
+> This tag is usually used to present a question for participants to discuss.
+{: .discussion}
+
 You may want to start by introducing the problems that preregistration solves, e.g.:
 - P-hacking (analysing data in different ways in order to better support a particular hypothesis)
 - HARKing (hypothesising after results are known, i.e. changing hypotheses to fit the data)
