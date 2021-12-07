@@ -1,5 +1,5 @@
 ---
-title: "RR: How to publish a RR"
+title: "RR: How to publish a Registered Report"
 teaching: 30
 exercises: null
 duration: null
