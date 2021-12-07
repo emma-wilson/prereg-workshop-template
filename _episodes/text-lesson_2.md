@@ -1,13 +1,17 @@
 ---
-title: Text Lesson
-teaching: null
-exercises: null
+title: How to write a good preregistration
+teaching: 30
+exercises: 30
 duration: null
-summary: This template shows you how to use the various different special text
-  boxes on offer.
-questions: null
-objectives: null
-keypoints: null
+summary: Guidance on what makes a good preregistration.
+questions:
+  - What should I include in my preregistration?
+objectives:
+  - Learn how to write a good preregistration
+keypoints:
+  - The study you are preregistering should be well-designed
+  - The preregistration should be clearly written and linked up
+  - The preregistration should be specified in enough detail
 is-break: null
 ukrn_wb_rules:
   - allow-multiple
