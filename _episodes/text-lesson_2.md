@@ -1,5 +1,5 @@
 ---
-title: How to write a good preregistration
+title: "Prereg: How to write a good preregistration"
 teaching: 30
 exercises: 30
 duration: null
