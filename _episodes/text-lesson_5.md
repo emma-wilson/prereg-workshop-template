@@ -1,5 +1,5 @@
 ---
-title: Wrap up and finish
+title: "Prereg: Wrap up and finish"
 teaching: 15
 exercises: null
 duration: null
