@@ -1,13 +1,19 @@
 ---
-title: Text Lesson
-teaching: null
+title: How to post a preregistration
+teaching: 30
 exercises: null
 duration: null
-summary: This template shows you how to use the various different special text
-  boxes on offer.
-questions: null
-objectives: null
-keypoints: null
+summary: A demonstration of how to post a preregistration.
+questions:
+  - What platforms may be suitable?
+  - Do these platforms have user guides or sandboxes?
+objectives:
+  - Understand how to post a preregistration
+keypoints:
+  - There are many different repositories available to post preregistrations
+  - Many are subject-specific
+  - Many have user guides or sandboxes to allow you to practice posting a
+    preregistration
 is-break: null
 ukrn_wb_rules:
   - allow-multiple
