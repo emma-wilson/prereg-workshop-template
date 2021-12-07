@@ -30,9 +30,7 @@ dependencies: []
 originalRepository: UKRN-Open-Research/ukrn-wb-lesson-templates
 
 ---
-Begin your workshop with an introduction to what preregistration entails, any potential benefits or drawbacks.
-
-##Introduction and discussion
+## Introduction and discussion
 Introduce the concept of preregistration, and why it is important in your discipline. It can be useful to add a discussion element to your workshop to gauge participants' understanding of preregistration.
 
 > ## `{: .discussion}` Tag
