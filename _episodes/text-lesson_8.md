@@ -26,109 +26,22 @@ dependencies: []
 originalRepository: UKRN-Open-Research/ukrn-wb-lesson-templates
 
 ---
-## Markdown
+Teach participants about the process of submitting and publishing a RR, including examples of policies from journals in your field when relevant. You might frame this by talking an example of a RR that you or a colleague submitted. 
 
-The text in these episodes is written in markdown.
-The **Workshop Builder** has a markdown editor, so it should not be _too difficult_ to edit the text to suit your requirements.
+# Where to submit a RR
+- Find an existing RR journal (cos.io/rr - ‘participating journals’ tab)
+- You can request a journal to offer RR format - template letter on cos.io/rr
+- Peer Community In Registered Reports (PCI RR) offers a ‘pool’ format where peer review comes before journal submission
 
-In addition to this, the website template we use has a variety of special highlighted sections that we use to draw attention to things.
+# Understanding the review process - offer any tips for navigating RR review
+**Stage 1**	
+- You may have to push back against reviewers if proposed changes are not feasible or reviewers are too pushy - seek the editor’s help
+- Consider when to apply for ethics review, if necessary - if the ethics board is very strict with changes or slow with amendments, this may need to wait until after Stage 1 acceptance. Discuss with the journal editor if necessary
 
-### Lesson sections
+**Stage 2**
+- Remember that reviewers cannot raise new objections to the study at this time, except if it deviates from the Stage 1 plan
 
-The following lesson section tags are available:
-* `{: .prereq}`
-* `{: .callout}`
-* `{: .challenge}`
-* `{: .checklist}`
-* `{: .discussion}`
-* `{: .solution}`
-* `{: .testimonial}`
+## Handling changes/mistakes when running the study
+- Discuss these with the editor before making changes, if possible
+- Report changes or mistakes to the editor as soon as they arise - they can help you problem-solve
 
-Additionally, you can make extra copies of these tags, which are included automatically:
-* `{: .objectives}`
-* `{: .keypoints}`
-
-Each tag is used in the same way, by including a section with a heading (`## heading`) in a block quote (`> quoted text`), and by having the tag `{: .tag-name}` on the line immediately following:
-
-```markdown
-> ## Section Title
-> Here is the section body.
-> This can be multiple lines long, and include images, code, etc.
->
-> If you want paragraph breaks, make sure the quotation block continues
-> by having the blank line start with >
->
-> When you're finished, style the whole block by including the tag on the next line.
-{: .tag-name}
-```
-
-### Examples
-
-> ## `{: .prereq}` Tag
-> This is a `{: .prereq}` tag block.
-> This tag is usually used to tell participants what they need before they can complete a lesson.
-{: .prereq}
-
-> ## `{: .callout}` Tag
-> This is a `{: .callout}` tag block.
-> This tag is usually used to highlight something participants should take note of.
-{: .callout}
-
-> ## `{: .challenge}` Tag
-> This is a `{: .challenge}` tag block.
-> This tag is usually used to suggest an activity for participants to do, perhaps writing a bit of code or trying to complete an exercise.
-{: .challenge}
-
-> ## `{: .checklist}` Tag
-> This is a `{: .checklist}` tag block.
-> This tag is usually used to provide a list participants can use to make sure they don't forget an important step in a procedure.
-{: .checklist}
-
-> ## `{: .discussion}` Tag
-> This is a `{: .discussion}` tag block.
-> This tag is usually used to present a question for participants to discuss.
-{: .discussion}
-
-> ## `{: .solution}` Tag
-> This is a `{: .solution}` tag block.
-> This tag is usually used to present a solution to a problem.
-> It is hidden by default, so that participants have to click to expand it and see the answer.
-{: .solution}
-
-```markdown
-> Using a different heading level for the solution tag won't work.
-> It has to be level 2.
-```
-{: .warning}
-
-> ## `{: .testimonial}` Tag
-> This is a `{: .testimonial}` tag block.
-> This tag is usually used to present quotes from people who have previously participated in the course.
-{: .testimonial}
-
-### Advanced Tag Use
-
-You can nest tags.
-It's quite common to see `{: .solution}` tags nested inside `{: .challenge}` tags, for example.
-They are done by stacking quote levels:
-```markdown
-> ## Question
-> Why do you normally not need to use `{: .objectives}` and `{: .keypoints}` tags?
-> > ## Answer
-> > These tags are included automatically at the beginning and end of the lesson.
-> {: .solution}
-{: .challenge}
-```
-
-And it looks like:
-> ## Question
-> Why do you normally not need to use `{: .objectives}` and `{: .keypoints}` tags?
-> > ## Answer
-> > These tags are included automatically at the beginning and end of the lesson.
-> {: .solution}
-{: .challenge}
-
-## HTML
-
-You can also write in HTML.
-The special `<kbd>` tag is available for use in neatly styling instructions like "press <kbd>Ctrl</kbd> + <kbd>Home</kbd>".
