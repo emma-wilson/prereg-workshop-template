@@ -70,15 +70,36 @@ Importantly, address the concerns that your participants have. Some concerns may
 > {: .solution}
 {: .challenge}
 
+> ## Concern 2
+> What if I make a mistake or have an oversight?
+> > ## Solution
+> > Changes to the preregistered plan are fine, they just need to be reported transparently
+> {: .solution}
+{: .challenge}
 
+> ## Concern 3
+> Is preregistration suitable for non-experimental research?
+> > ## Solution
+> > Preregistration may be less useful, but still can help in transparently defining aims and methods beforehand. There are prereg templates for many of these, including:
+> > - Qualitative research 
+> > - Exploratory studies or disciplines, e.g. high throughput drug discovery 
+> > - Secondary data analysis or simulated data
+> {: .solution}
+{: .challenge}
 
-- Concerns about making mistakes/oversights (again, changes to the prereg plan are fine, they just need to be reported transparently)
-- Suitability for non-experimental research (preregistration may be less useful, but still can help in transparently defining aims and methods beforehand. There are prereg templates for many of these)
-	- qualitative research 
-	- exploratory studies or disciplines, e.g. high throughput drug discovery 
-- Secondary data analysis or simulated data
-- Creating extra work (yes, preregistration takes extra time at the start of a study, but can save time in writing up the paper, and hopefully benefits are worth the extra effort)
-- Scooping (preregistrations can be embargoed until the study is complete)
+> ## Concern 4
+> Preregistration creates extra work
+> > ## Solution
+> > Yes, preregistration takes extra time at the start of a study, but can save time in writing up the paper, and hopefully benefits are worth the extra effort
+> {: .solution}
+{: .challenge}
+
+> ## Concern 5
+> If I preregister my research I might get scooped
+> > ## Solution
+> > Preregistrations can be embargoed until the study is complete
+> {: .solution}
+{: .challenge}
 
 You may want to invite participants to share any other concerns they have, and discuss these as a group. But be careful not to get bogged down in overly philosophical or theoretical discussions - the point of the workshop is to make practical changes!
 - Set only a certain amount of time for discussion, and make sure to move on afterward
