@@ -1,5 +1,5 @@
 ---
-title: "RR: How to write a good RR"
+title: "RR: How to write a good Registered Report"
 teaching: 30
 exercises: 30
 duration: null
