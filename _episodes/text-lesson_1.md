@@ -1,5 +1,5 @@
 ---
-title: How to post a preregistration
+title: "Prereg: How to post a preregistration"
 teaching: 30
 exercises: null
 duration: null
