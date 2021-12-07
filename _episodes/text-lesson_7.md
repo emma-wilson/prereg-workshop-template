@@ -27,109 +27,31 @@ dependencies: []
 originalRepository: UKRN-Open-Research/ukrn-wb-lesson-templates
 
 ---
-## Markdown
+Take participants through the steps of how to write a RR, referring to this checklist, practical recommendations or other resources as necessary.
 
-The text in these episodes is written in markdown.
-The **Workshop Builder** has a markdown editor, so it should not be _too difficult_ to edit the text to suit your requirements.
+## Make sure your study is suitable as a RR
+The RR should ideally have a well-defined research question that will be informative no matter the results (i.e., not only interesting if the hypothesis is confirmed).
 
-In addition to this, the website template we use has a variety of special highlighted sections that we use to draw attention to things.
+The study should include positive controls and/or manipulation checks, to ensure that potential null results do not merely reflect ineffective study design.
 
-### Lesson sections
+## Identify possible journals
+See lists of those that offer RRs (see: cos.io/rr), or write to an editor to ask them to offer (many will be amenable!).
+- Some journals publish Stage 1 protocols when they are in-principle accepted, as a separate publication to Stage 2 results; others publish both stages together at the end
+- Some journals publish reviews - check if you have a preference
 
-The following lesson section tags are available:
-* `{: .prereq}`
-* `{: .callout}`
-* `{: .challenge}`
-* `{: .checklist}`
-* `{: .discussion}`
-* `{: .solution}`
-* `{: .testimonial}`
+## Look up the RR template or guidance for your preferred journal
+It may be useful to go through this with participants using a relevant journal in your field, but most RRs will require:
+- A full introduction with literature review, background and research question. This introduction section cannot be updated after the study is run
+- A comprehensive methods section specifying every detail of the methods, sufficient for others to reproduce the study
+- An analysis plan 
+- For quantitative RRs: must be specific enough to restrict each analysis to one single path (no hidden flexible options)
 
-Additionally, you can make extra copies of these tags, which are included automatically:
-* `{: .objectives}`
-* `{: .keypoints}`
+It may help to check guidelines and common challenges related to reviewing a RR, so authors know what reviewers will look for.
 
-Each tag is used in the same way, by including a section with a heading (`## heading`) in a block quote (`> quoted text`), and by having the tag `{: .tag-name}` on the line immediately following:
+Remember that usually, the accepted Stage 1 manuscript cannot be changed after in-principle acceptance - so ensure it is in publishable shape before finalizing!
 
-```markdown
-> ## Section Title
-> Here is the section body.
-> This can be multiple lines long, and include images, code, etc.
->
-> If you want paragraph breaks, make sure the quotation block continues
-> by having the blank line start with >
->
-> When you're finished, style the whole block by including the tag on the next line.
-{: .tag-name}
-```
-
-### Examples
-
-> ## `{: .prereq}` Tag
-> This is a `{: .prereq}` tag block.
-> This tag is usually used to tell participants what they need before they can complete a lesson.
-{: .prereq}
-
-> ## `{: .callout}` Tag
-> This is a `{: .callout}` tag block.
-> This tag is usually used to highlight something participants should take note of.
+> ## Info
+> It may help to check guidelines and common challenges related to reviewing a RR, so authors know what reviewers will look for.
+> 
+> Remember that usually, the accepted Stage 1 manuscript cannot be changed after in-principle acceptance - so ensure it is in publishable shape before finalizing!
 {: .callout}
-
-> ## `{: .challenge}` Tag
-> This is a `{: .challenge}` tag block.
-> This tag is usually used to suggest an activity for participants to do, perhaps writing a bit of code or trying to complete an exercise.
-{: .challenge}
-
-> ## `{: .checklist}` Tag
-> This is a `{: .checklist}` tag block.
-> This tag is usually used to provide a list participants can use to make sure they don't forget an important step in a procedure.
-{: .checklist}
-
-> ## `{: .discussion}` Tag
-> This is a `{: .discussion}` tag block.
-> This tag is usually used to present a question for participants to discuss.
-{: .discussion}
-
-> ## `{: .solution}` Tag
-> This is a `{: .solution}` tag block.
-> This tag is usually used to present a solution to a problem.
-> It is hidden by default, so that participants have to click to expand it and see the answer.
-{: .solution}
-
-```markdown
-> Using a different heading level for the solution tag won't work.
-> It has to be level 2.
-```
-{: .warning}
-
-> ## `{: .testimonial}` Tag
-> This is a `{: .testimonial}` tag block.
-> This tag is usually used to present quotes from people who have previously participated in the course.
-{: .testimonial}
-
-### Advanced Tag Use
-
-You can nest tags.
-It's quite common to see `{: .solution}` tags nested inside `{: .challenge}` tags, for example.
-They are done by stacking quote levels:
-```markdown
-> ## Question
-> Why do you normally not need to use `{: .objectives}` and `{: .keypoints}` tags?
-> > ## Answer
-> > These tags are included automatically at the beginning and end of the lesson.
-> {: .solution}
-{: .challenge}
-```
-
-And it looks like:
-> ## Question
-> Why do you normally not need to use `{: .objectives}` and `{: .keypoints}` tags?
-> > ## Answer
-> > These tags are included automatically at the beginning and end of the lesson.
-> {: .solution}
-{: .challenge}
-
-## HTML
-
-You can also write in HTML.
-The special `<kbd>` tag is available for use in neatly styling instructions like "press <kbd>Ctrl</kbd> + <kbd>Home</kbd>".
