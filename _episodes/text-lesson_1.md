@@ -30,109 +30,48 @@ dependencies: []
 originalRepository: UKRN-Open-Research/ukrn-wb-lesson-templates
 
 ---
-## Markdown
+Begin your workshop with an introduction to what preregistration entails, any potential benefits or drawbacks.
 
-The text in these episodes is written in markdown.
-The **Workshop Builder** has a markdown editor, so it should not be _too difficult_ to edit the text to suit your requirements.
+##Introduction and discussion
+Introduce the concept of preregistration, and why it is important in your discipline. It can be useful to add a discussion element to your workshop to gauge participants' understanding of preregistration.
 
-In addition to this, the website template we use has a variety of special highlighted sections that we use to draw attention to things.
+You may want to start by introducing the problems that preregistration solves, e.g.:
+- P-hacking (analysing data in different ways in order to better support a particular hypothesis)
+- HARKing (hypothesising after results are known, i.e. changing hypotheses to fit the data)
+- Under-specified protocols / high ‘researcher degrees of freedom’
+- Duplication of efforts
+- Competition/scooping - lack of a timestamped claim to a protocol
+- Etc.
 
-### Lesson sections
+Then, explain the mechanics of how preregistration works (timestamped, frozen document detailing protocol, prior to study)
 
-The following lesson section tags are available:
-* `{: .prereq}`
-* `{: .callout}`
-* `{: .challenge}`
-* `{: .checklist}`
-* `{: .discussion}`
-* `{: .solution}`
-* `{: .testimonial}`
+Finally, if applicable, discuss the differences between preregistration and RRs
 
-Additionally, you can make extra copies of these tags, which are included automatically:
-* `{: .objectives}`
-* `{: .keypoints}`
 
-Each tag is used in the same way, by including a section with a heading (`## heading`) in a block quote (`> quoted text`), and by having the tag `{: .tag-name}` on the line immediately following:
+##Benefits of preregistration 
+Introduce some of the benefits of preregistering your research. These could include:
+- Explaining how preregistration addresses the problems above
+- Outlining the selfish reasons to preregister, for example:
+- Improves credibility (among reviewers and readers)
+- Can help improve study quality, by planning ahead and anticipating problems
+- Makes the eventual study easier to run, as it’s pre-planned
+- Helps keep the study accountable to its original aims 
+- Etc.
 
-```markdown
-> ## Section Title
-> Here is the section body.
-> This can be multiple lines long, and include images, code, etc.
->
-> If you want paragraph breaks, make sure the quotation block continues
-> by having the blank line start with >
->
-> When you're finished, style the whole block by including the tag on the next line.
-{: .tag-name}
-```
 
-### Examples
+##Acknowledging and addressing concerns
+Importantly, address the concerns that your participants have. Some concerns may not have solutions, and simply need to be acknowledged; however, many can be resolved. Common concerns may include:
+- Prohibiting exploratory analysis (preregistration is a plan, not a prison - exploratory analyses are fine, as long as they are labeled as such)
+- Concerns about making mistakes/oversights (again, changes to the prereg plan are fine, they just need to be reported transparently)
+- Suitability for non-experimental research (preregistration may be less useful, but still can help in transparently defining aims and methods beforehand. There are prereg templates for many of these)
+	- qualitative research 
+	- exploratory studies or disciplines, e.g. high throughput drug discovery 
+- Secondary data analysis or simulated data
+- Creating extra work (yes, preregistration takes extra time at the start of a study, but can save time in writing up the paper, and hopefully benefits are worth the extra effort)
+- Scooping (preregistrations can be embargoed until the study is complete)
 
-> ## `{: .prereq}` Tag
-> This is a `{: .prereq}` tag block.
-> This tag is usually used to tell participants what they need before they can complete a lesson.
-{: .prereq}
+You may want to invite participants to share any other concerns they have, and discuss these as a group. But be careful not to get bogged down in overly philosophical or theoretical discussions - the point of the workshop is to make practical changes!
+- Set only a certain amount of time for discussion, and make sure to move on afterward
+- Offer to discuss lingering concerns with attendees after the workshop
+- Remember, you don’t need to dispel all concerns - it’s ok to say you don’t know (but will look it up), or just acknowledge there are some risks/drawbacks
 
-> ## `{: .callout}` Tag
-> This is a `{: .callout}` tag block.
-> This tag is usually used to highlight something participants should take note of.
-{: .callout}
-
-> ## `{: .challenge}` Tag
-> This is a `{: .challenge}` tag block.
-> This tag is usually used to suggest an activity for participants to do, perhaps writing a bit of code or trying to complete an exercise.
-{: .challenge}
-
-> ## `{: .checklist}` Tag
-> This is a `{: .checklist}` tag block.
-> This tag is usually used to provide a list participants can use to make sure they don't forget an important step in a procedure.
-{: .checklist}
-
-> ## `{: .discussion}` Tag
-> This is a `{: .discussion}` tag block.
-> This tag is usually used to present a question for participants to discuss.
-{: .discussion}
-
-> ## `{: .solution}` Tag
-> This is a `{: .solution}` tag block.
-> This tag is usually used to present a solution to a problem.
-> It is hidden by default, so that participants have to click to expand it and see the answer.
-{: .solution}
-
-```markdown
-> Using a different heading level for the solution tag won't work.
-> It has to be level 2.
-```
-{: .warning}
-
-> ## `{: .testimonial}` Tag
-> This is a `{: .testimonial}` tag block.
-> This tag is usually used to present quotes from people who have previously participated in the course.
-{: .testimonial}
-
-### Advanced Tag Use
-
-You can nest tags.
-It's quite common to see `{: .solution}` tags nested inside `{: .challenge}` tags, for example.
-They are done by stacking quote levels:
-```markdown
-> ## Question
-> Why do you normally not need to use `{: .objectives}` and `{: .keypoints}` tags?
-> > ## Answer
-> > These tags are included automatically at the beginning and end of the lesson.
-> {: .solution}
-{: .challenge}
-```
-
-And it looks like:
-> ## Question
-> Why do you normally not need to use `{: .objectives}` and `{: .keypoints}` tags?
-> > ## Answer
-> > These tags are included automatically at the beginning and end of the lesson.
-> {: .solution}
-{: .challenge}
-
-## HTML
-
-You can also write in HTML.
-The special `<kbd>` tag is available for use in neatly styling instructions like "press <kbd>Ctrl</kbd> + <kbd>Home</kbd>".
