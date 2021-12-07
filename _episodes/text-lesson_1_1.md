@@ -33,7 +33,7 @@ originalRepository: UKRN-Open-Research/ukrn-wb-lesson-templates
 ## Introduction and discussion
 Introduce the concept of preregistration, and why it is important in your discipline. It can be useful to add a discussion element to your workshop to gauge participants' understanding of preregistration.
 
-> ### Discussion
+> ## Discussion
 > You may want to start by introducing the problems that preregistration solves, e.g.:
 > - P-hacking (analysing data in different ways in order to better support a particular hypothesis)
 > - HARKing (hypothesising after results are known, i.e. changing hypotheses to fit the data)
@@ -49,7 +49,7 @@ Finally, if applicable, discuss the differences between preregistration and RRs
 
 ## Benefits of preregistration 
 
-> ### Discussion
+> ## Discussion
 > Introduce some of the benefits of preregistering your research. These could include:
 > - Explaining how preregistration addresses the problems above
 > - Outlining the selfish reasons to preregister, for example:
@@ -63,9 +63,9 @@ Finally, if applicable, discuss the differences between preregistration and RRs
 ## Acknowledging and addressing concerns
 Importantly, address the concerns that your participants have. Some concerns may not have solutions, and simply need to be acknowledged; however, many can be resolved. Common concerns may include:
 
-> ### Concern 1
+> ## Concern 1
 > Preregistration prohibits exploratory analysis
-> > ### Solution
+> > ## Solution
 > > Preregistration is a plan, not a prison - exploratory analyses are fine, as long as they are labeled as such
 > {: .solution}
 {: .challenge}
