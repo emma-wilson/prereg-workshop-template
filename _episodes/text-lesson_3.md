@@ -1,5 +1,5 @@
 ---
-title: Tying the preregistration into the final manuscript
+title: "Prereg: Tying the preregistration into the final manuscript"
 teaching: 30
 exercises: null
 duration: null
