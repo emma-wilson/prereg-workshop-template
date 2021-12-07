@@ -1,13 +1,25 @@
 ---
-title: Text Lesson
-teaching: null
+title: Tying the preregistration into the final manuscript
+teaching: 30
 exercises: null
 duration: null
-summary: This template shows you how to use the various different special text
-  boxes on offer.
-questions: null
-objectives: null
-keypoints: null
+summary: Understanding how to preregistration and final manuscript tie together
+questions:
+  - How do I link my manuscript back to my preregistration?
+  - What happens if I make changes?
+  - How do I differentiate between exploratory and confirmatory analyses?
+objectives:
+  - Understand how to link your manuscript back to your preregistration
+  - Understand how to report changes transparently
+  - Understand how to differentiate between different types of analyses in your
+    manuscript
+keypoints:
+  - Different journals handle linking to preregistrations differently, so it's
+    best to check relevant journals' policies
+  - You can report changes between your preregistration and manuscript in a
+    'transparent changes' section
+  - You are use subheadings or explain in the text to differentiate between
+    different types of analyses
 is-break: null
 ukrn_wb_rules:
   - allow-multiple
