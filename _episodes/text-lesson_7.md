@@ -1,13 +1,22 @@
 ---
-title: Text Lesson
-teaching: null
+title: "RR: How to write a good RR"
+teaching: 30
 exercises: null
 duration: null
-summary: This template shows you how to use the various different special text
-  boxes on offer.
-questions: null
-objectives: null
-keypoints: null
+summary: Guidance on how to write a good Registered Report.
+questions:
+  - Is my study suitable as a Registered Report?
+  - What possible journals can I publish my Registered Report in?
+  - What should I include in my Registered Report?
+objectives:
+  - Understand what study types are most suitable as Registered Reports
+  - Identify relevant journals
+  - Understand what information should be included in a Registered Report
+keypoints:
+  - Your study should have a well-defined research question
+  - Lists of journals that publish Registered Reports are available
+  - Different journals have different specifications for what to include in a
+    Registered Report
 is-break: null
 ukrn_wb_rules:
   - allow-multiple
