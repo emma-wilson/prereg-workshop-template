@@ -33,37 +33,40 @@ originalRepository: UKRN-Open-Research/ukrn-wb-lesson-templates
 ## Introduction and discussion
 Introduce the concept of preregistration, and why it is important in your discipline. It can be useful to add a discussion element to your workshop to gauge participants' understanding of preregistration.
 
-> ## `{: .discussion}` Tag
-> This is a `{: .discussion}` tag block.
-> This tag is usually used to present a question for participants to discuss.
+> ### Discussion
+> You may want to start by introducing the problems that preregistration solves, e.g.:
+> - P-hacking (analysing data in different ways in order to better support a particular hypothesis)
+> - HARKing (hypothesising after results are known, i.e. changing hypotheses to fit the data)
+> - Under-specified protocols / high ‘researcher degrees of freedom’
+> - Duplication of efforts
+> - Competition/scooping - lack of a timestamped claim to a protocol
+> - Etc.
 {: .discussion}
-
-You may want to start by introducing the problems that preregistration solves, e.g.:
-- P-hacking (analysing data in different ways in order to better support a particular hypothesis)
-- HARKing (hypothesising after results are known, i.e. changing hypotheses to fit the data)
-- Under-specified protocols / high ‘researcher degrees of freedom’
-- Duplication of efforts
-- Competition/scooping - lack of a timestamped claim to a protocol
-- Etc.
 
 Then, explain the mechanics of how preregistration works (timestamped, frozen document detailing protocol, prior to study)
 
 Finally, if applicable, discuss the differences between preregistration and RRs
 
+## Benefits of preregistration 
 
-##Benefits of preregistration 
-Introduce some of the benefits of preregistering your research. These could include:
-- Explaining how preregistration addresses the problems above
-- Outlining the selfish reasons to preregister, for example:
-- Improves credibility (among reviewers and readers)
-- Can help improve study quality, by planning ahead and anticipating problems
-- Makes the eventual study easier to run, as it’s pre-planned
-- Helps keep the study accountable to its original aims 
-- Etc.
+> ### Discussion
+> Introduce some of the benefits of preregistering your research. These could include:
+> - Explaining how preregistration addresses the problems above
+> - Outlining the selfish reasons to preregister, for example:
+> - Improves credibility (among reviewers and readers)
+> - Can help improve study quality, by planning ahead and anticipating problems
+> - Makes the eventual study easier to run, as it’s pre-planned
+> - Helps keep the study accountable to its original aims 
+> - Etc.
+{: .discussion}
 
-
-##Acknowledging and addressing concerns
+## Acknowledging and addressing concerns
 Importantly, address the concerns that your participants have. Some concerns may not have solutions, and simply need to be acknowledged; however, many can be resolved. Common concerns may include:
+
+
+
+
+
 - Prohibiting exploratory analysis (preregistration is a plan, not a prison - exploratory analyses are fine, as long as they are labeled as such)
 - Concerns about making mistakes/oversights (again, changes to the prereg plan are fine, they just need to be reported transparently)
 - Suitability for non-experimental research (preregistration may be less useful, but still can help in transparently defining aims and methods beforehand. There are prereg templates for many of these)
