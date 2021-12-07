@@ -1,13 +1,25 @@
 ---
-title: Text Lesson
-teaching: null
-exercises: null
+title: "RR: Introducing the concept - the ‘what’ and ‘why’ of Registered Reports"
+teaching: 15
+exercises: 15
 duration: null
-summary: This template shows you how to use the various different special text
-  boxes on offer.
-questions: null
-objectives: null
-keypoints: null
+summary: ""
+questions:
+  - What is a Registered Report?
+  - What are the benefits of Registered Reports?
+  - What concerns do people have about Registered Reports? How can we mitigate
+    them?
+objectives:
+  - Understand what Registered Reports entails
+  - Understand the benefits of Registered Reports
+  - Understand common concerns and how to mitigate them
+keypoints:
+  - A Registered Report is a type of journal article presenting a peer-reviewed
+    pre-registration of proposed methods and analysis plans
+  - Registered Reports benefits science and researchers by making research more
+    transparent
+  - Researchers have several concerns surrounding Registered Reports, but many
+    of them can be solved
 is-break: null
 ukrn_wb_rules:
   - allow-multiple
