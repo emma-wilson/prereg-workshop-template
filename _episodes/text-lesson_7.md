@@ -1,7 +1,7 @@
 ---
 title: "RR: How to write a good RR"
 teaching: 30
-exercises: null
+exercises: 30
 duration: null
 summary: Guidance on how to write a good Registered Report.
 questions:
