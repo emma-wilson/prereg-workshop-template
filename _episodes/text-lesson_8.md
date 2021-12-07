@@ -1,13 +1,21 @@
 ---
-title: Text Lesson
-teaching: null
+title: "RR: How to publish a RR"
+teaching: 30
 exercises: null
 duration: null
-summary: This template shows you how to use the various different special text
-  boxes on offer.
-questions: null
-objectives: null
-keypoints: null
+summary: Walkthrough of how to publish a Registered Report
+questions:
+  - Where should I submit my Registered Report?
+  - How does the peer review process work?
+  - How do I handle changes or mistakes?
+objectives:
+  - Identify journals that accept Registered Reports
+  - Understand how the peer review process works in Registered Reports
+  - Confidently handle changes or mistakes in your Registered Report
+keypoints:
+  - You can find an existing journal or request a journal offer a Registered
+    report format
+  - Discuss changes or mistakes with the editor if they arise
 is-break: null
 ukrn_wb_rules:
   - allow-multiple
