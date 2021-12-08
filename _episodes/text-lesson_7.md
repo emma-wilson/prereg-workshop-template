@@ -27,7 +27,7 @@ dependencies: []
 originalRepository: UKRN-Open-Research/ukrn-wb-lesson-templates
 
 ---
-Take participants through the steps of how to write a RR, referring to this checklist, practical recommendations or other resources as necessary.
+Take participants through the steps of how to write a RR, referring to this [checklist](https://osf.io/93znh/), [practical recommendations](https://www.cell.com/trends/neurosciences/fulltext/S0166-2236(19)30124-9) or [other resources](https://www.cos.io/initiatives/registered-reports) as necessary.
 
 ## Make sure your study is suitable as a RR
 The RR should ideally have a well-defined research question that will be informative no matter the results (i.e., not only interesting if the hypothesis is confirmed).
@@ -51,7 +51,7 @@ It may help to check guidelines and common challenges related to reviewing a RR,
 Remember that usually, the accepted Stage 1 manuscript cannot be changed after in-principle acceptance - so ensure it is in publishable shape before finalizing!
 
 > ## Info
-> It may help to check guidelines and common challenges related to reviewing a RR, so authors know what reviewers will look for.
+> It may help to check [guidelines](https://rr.peercommunityin.org/help/guide_for_reviewers#h_7586915642301613635089357) and [common challenges](https://rr.peercommunityin.org/help/guide_for_recommenders#h_85431804130871613644075506) related to reviewing a RR, so authors know what reviewers will look for.
 > 
 > Remember that usually, the accepted Stage 1 manuscript cannot be changed after in-principle acceptance - so ensure it is in publishable shape before finalizing!
 {: .callout}
