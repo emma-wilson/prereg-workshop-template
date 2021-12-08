@@ -52,6 +52,6 @@ The prereg is specified in enough detail
 ## Teaching methods you may want to use
 - Discuss as a group what makes a preregistration useful versus unhelpful
 - Run an exercise using examples of bad (vague, disorganised, etc.) preregistrations and have participants identify the problems and improve them
-- Go through examples of real preregistrations (and papers reporting preregistered studies) in your field
+- Go through [examples](https://osf.io/e6auq/wiki/Example%20Preregistrations/?view) of real preregistrations (and [papers](https://www.zotero.org/groups/479248/osf/collections/VKXUAZM7) reporting preregistered studies) in your field
 - Have participants actually try their hand at writing a preregistration (a real, or toy example one)
 - Peer review each other’s preregistrations in pairs or groups
