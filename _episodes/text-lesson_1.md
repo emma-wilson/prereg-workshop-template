@@ -26,9 +26,9 @@ originalRepository: UKRN-Open-Research/ukrn-wb-lesson-templates
 ---
 Demonstrate a toy example with chosen platform(s), for example the below. Some of these have guides to submitting a preregistration or options to create a dummy or ‘sandbox’ version for demonstration purposes.
 
-- OSF (see their guides)
+- OSF (see their [guides](https://help.osf.io/hc/en-us/categories/360001550953-Registrations))
 - Aspredicted.org
-- Clinicaltrials.gov (see their guide)
-- PROSPERO (see their guide)
+- Clinicaltrials.gov (see their [guide](https://clinicaltrials.gov/ct2/manage-recs/how-register))
+- PROSPERO (see their [guide](https://www.crd.york.ac.uk/prospero/#aboutregpage))
 - Etc.
 
