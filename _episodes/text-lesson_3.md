@@ -30,7 +30,7 @@ dependencies: []
 originalRepository: UKRN-Open-Research/ukrn-wb-lesson-templates
 
 ---
-Discuss how to write up/report your results after the study is run (see this checklist), including:
+Discuss how to write up/report your results after the study is run (see this [checklist](https://osf.io/zwkqj/)), including:
 - How to link the manuscript back to the preregistration (journals differ in their conventions for tying preregistrations to the final manuscript, so you might want to give an example from a journal relevant to your attendees’ field)
 - How to make any changes transparent (e.g., by including a ‘transparent changes’ section or supplement)
 - How to differentiate between exploratory and confirmatory analyses (e.g., report them under separate sub-headings, and/or explain in the text)
